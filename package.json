@@ -22,6 +22,7 @@
     "postprocessing": "^6.37.2",
     "r3f-perf": "^7.2.3",
     "react": "^19.0.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^19.0.0",
     "react-parallax-tilt": "^1.7.289",
     "three": "^0.175.0",
@@ -30,6 +31,7 @@
   "devDependencies": {
     "@eslint/js": "^9.21.0",
     "@types/react": "^19.0.10",
+    "@types/react-anchor-link-smooth-scroll": "^1.0.5",
     "@types/react-dom": "^19.0.4",
     "@types/three": "^0.175.0",
     "@vitejs/plugin-react-swc": "^3.8.0",

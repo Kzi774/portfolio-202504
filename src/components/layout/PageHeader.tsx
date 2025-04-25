@@ -1,5 +1,6 @@
 import { useEffect, useState, Dispatch, SetStateAction } from "react";
 import Menu from "./Menu";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 type HeaderProps= {
   confettiToggle: boolean;
@@ -27,14 +28,13 @@ function Header({ confettiToggle, setConfettiToggle, confettiIconRef }: HeaderPr
   }, []);
   return (
     <>
-      <a href="#firstview" className="fv-header">
+      <AnchorLink href="#firstview" className="fv-header">
         <p>web / design</p>
         <h2>tsu2ji design</h2>
         <p className="subtitle">つつじデザイン</p>
-      </a>
+      </AnchorLink>
 
       <div className="confetti-toggle">
-        {/* <label className="toggle-button-1" onChange={handleChange}> */}
         <label className="toggle-button-1">
           <input type="checkbox" checked={confettiToggle}
           onChange={() => setConfettiToggle(prev => !prev)}/>
