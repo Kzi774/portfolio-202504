@@ -316,7 +316,7 @@
   display: inline-block;
 
   /* マスク全体を適用 */
-  mask-image: var(--mask);
+  mask-image: var(--mask) !important;
   -webkit-mask-image: var(--mask);
 
   --mask: url(/sloganAno.svg);
