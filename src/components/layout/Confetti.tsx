@@ -13,14 +13,14 @@ const Confetti = ({ currentIndex }: ConfettiProps) => {
 
   const svgs = isMobile
     ? [
-      "./src/assets/images/confettisp.svg",
-      "./src/assets/images/confettisp2.svg",
-      "./src/assets/images/confettisp3.svg",
+      "/images/confettisp.svg",
+      "/images/confettisp2.svg",
+      "/images/confettisp3.svg",
     ]
     : [
-      "./src/assets/images/lit-confetti1.svg",
-      "./src/assets/images/lit-confetti2.svg",
-      "./src/assets/images/lit-confetti3.svg",
+      "/images/lit-confetti1.svg",
+      "/images/lit-confetti2.svg",
+      "/images/lit-confetti3.svg",
     ];
 
   return (

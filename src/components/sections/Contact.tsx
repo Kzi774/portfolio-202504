@@ -75,7 +75,7 @@ const Contact = () => {
         </div>
 
         <img
-          src="./src/assets/images/contactImg.JPG"
+          src="/images/contactImg.JPG"
           alt=""
           className="fade-up"
         />

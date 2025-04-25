@@ -15,9 +15,9 @@ interface FirstViewProps {
 const FirstView = forwardRef<HTMLDivElement, FirstViewProps>(
   ({ fade, boxRef }) => {
     const images = [
-      "./src/assets/images/firstview1.JPG",
-      "./src/assets/images/firstview2.JPG",
-      "./src/assets/images/firstview3.JPG",
+      "/images/firstview1.JPG",
+      "/images/firstview2.JPG",
+      "/images/firstview3.JPG",
     ];
     const mainvisualRef = useRef<HTMLDivElement>(null);
     const displayTime = 6000;

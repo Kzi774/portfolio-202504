@@ -160,7 +160,7 @@ const About = forwardRef<HTMLDivElement, AboutProps>(({ boxRef }) => {
         </div>
         <Tilt className="card-wrapper">
           <div>
-            <img src="./src/assets/images/portfoliocard.png" alt="" />
+            <img src="/images/portfoliocard.png" alt="" />
           </div>
         </Tilt>
       </section>

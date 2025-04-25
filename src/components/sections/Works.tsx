@@ -80,12 +80,12 @@ const Works = () => {
               >
                 <div className="work-image-wrapper">
                   <img
-                    src="./src/assets/images/portfolio-view.png"
+                    src="/images/portfolio-view.png"
                     alt=""
                     className="work-pc-img"
                   />
                   <img
-                    src="./src/assets/images/portfolio-view-sp.png"
+                    src="/images/portfolio-view-sp.png"
                     alt=""
                     className="work-sp-img"
                   />
@@ -110,12 +110,12 @@ const Works = () => {
               >
                 <div className="work-image-wrapper">
                   <img
-                    src="./src/assets/images/nengajo-view.png"
+                    src="/images/nengajo-view.png"
                     alt=""
                     className="work-pc-img"
                   />
                   <img
-                    src="./src/assets/images/nengajo-view-sp.png"
+                    src="/images/nengajo-view-sp.png"
                     alt=""
                     className="work-sp-img"
                   />
@@ -140,12 +140,12 @@ const Works = () => {
               >
                 <div className="work-image-wrapper">
                   <img
-                    src="./src/assets/images/backstage-view.png"
+                    src="/images/backstage-view.png"
                     alt=""
                     className="work-pc-img"
                   />
                   <img
-                    src="./src/assets/images/backstage-view-sp.png"
+                    src="/images/backstage-view-sp.png"
                     alt=""
                     className="work-sp-img"
                   />
@@ -170,12 +170,12 @@ const Works = () => {
               >
                 <div className="work-image-wrapper">
                   <img
-                    src="./src/assets/images/t-kaisei-view.png"
+                    src="/images/t-kaisei-view.png"
                     alt=""
                     className="work-pc-img"
                   />
                   <img
-                    src="./src/assets/images/t-kaisei-view-sp.png"
+                    src="/images/t-kaisei-view-sp.png"
                     alt=""
                     className="work-sp-img"
                   />
@@ -200,12 +200,12 @@ const Works = () => {
               >
                 <div className="work-image-wrapper">
                   <img
-                    src="./src/assets/images/lighteffect.gif"
+                    src="/images/lighteffect.gif"
                     alt=""
                     className="work-pc-img"
                   />
                   <img
-                    src="./src/assets/images/lighteffect.gif"
+                    src="/images/lighteffect.gif"
                     alt=""
                     className="work-sp-img"
                   />
@@ -230,12 +230,12 @@ const Works = () => {
               >
                 <div className="work-image-wrapper">
                   <img
-                    src="./src/assets/images/cardanime.gif"
+                    src="/images/cardanime.gif"
                     alt=""
                     className="work-pc-img"
                   />
                   <img
-                    src="./src/assets/images/cardanime.gif"
+                    src="/images/cardanime.gif"
                     alt=""
                     className="work-sp-img"
                   />
@@ -260,12 +260,12 @@ const Works = () => {
               >
                 <div className="work-image-wrapper">
                   <img
-                    src="./src/assets/images/jumpingtext.gif"
+                    src="/images/jumpingtext.gif"
                     alt=""
                     className="work-pc-img"
                   />
                   <img
-                    src="./src/assets/images/jumpingtext.gif"
+                    src="/images/jumpingtext.gif"
                     alt=""
                     className="work-sp-img"
                   />
@@ -290,12 +290,12 @@ const Works = () => {
               >
                 <div className="work-image-wrapper">
                   <img
-                    src="./src/assets/images/scrollTextBox.gif"
+                    src="/images/scrollTextBox.gif"
                     alt=""
                     className="work-pc-img"
                   />
                   <img
-                    src="./src/assets/images/scrollTextBox.gif"
+                    src="/images/scrollTextBox.gif"
                     alt=""
                     className="work-sp-img"
                   />
