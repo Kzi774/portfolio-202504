@@ -1,5 +1,5 @@
 # つつじデザイン　ポートフォリオサイト
-<!-- Failed to upload "porfolio-firstview.gif" -->
+![Image](https://github.com/user-attachments/assets/b0b6d982-370f-455c-bfb8-eefd2d9d9cf5)
 ## 概要
 このポートフォリオサイトでは、私のウェブ開発スキルを紹介しています。プロジェクトや使用した技術、デザインに関する情報を提供しています。
 
