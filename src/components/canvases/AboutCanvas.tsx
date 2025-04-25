@@ -24,7 +24,7 @@ export const AboutCanvas: React.FC = () => (
   <Canvas
     orthographic
     camera={{ position: [0, 0, 100], zoom: 100 }}
-    gl={{ clearColor: "#FFF0F5" }}
+    style={{ background: "#FFF0F5" }}
     className="about-canvas"
   >
     <ambientLight intensity={1} />
@@ -69,7 +69,7 @@ const InstancedSpheres: React.FC<InstancedSpheresProps> = ({ count = 200 }) => {
   }, [api, count]);
 
   return (
-    <instancedMesh ref={ref} args={[null, null, count]}>
+    <instancedMesh ref={ref} args={[undefined, undefined, count]}>
       <sphereGeometry args={[1, 64, 64]}>
         <instancedBufferAttribute
           attach="attributes-color"
@@ -115,6 +115,7 @@ const Borders: React.FC = () => {
 
 interface PlaneProps {
   position?: [number, number, number];
+  rotation?: [number, number, number];
 }
 
 const Plane: React.FC<PlaneProps> = ({
