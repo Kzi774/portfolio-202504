@@ -2,6 +2,7 @@ import { useLayoutEffect, useRef } from "react";
 import BgCanvas from "../canvases/BgCanvas";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import sloganSvg from '/sloganAno.svg';
 gsap.registerPlugin(ScrollTrigger);
 
 const Service = () => {
@@ -29,7 +30,7 @@ const Service = () => {
       <section id="service-section" ref={sectionRef}>
         <h3 className="area-tag">Services <br /><span>力になれること</span></h3>
         <h3 className="service-slogan">
-          <img src="./src/assets/images/sloganAno.svg" alt="" />
+          <img src={sloganSvg} alt="" />
         </h3>
         <p className="service-policy-detail fade-up">
           ウェブは芸術ではなく目的があって、さらに他者のために作られるコミュニケーションの方法の一つだと考えています。
