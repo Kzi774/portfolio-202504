@@ -1,3 +1,11 @@
+import confettisp from '../../assets/images/confettisp.svg'
+import confettisp2 from '../../assets/images/confettisp2.svg'
+import confettisp3 from '../../assets/images/confettisp3.svg'
+import confetti from '../../assets/images/lit-confetti1.svg'
+import confetti2 from '../../assets/images/lit-confetti2.svg'
+import confetti3 from '../../assets/images/lit-confetti3.svg'
+
+
 interface ConfettiProps {
   currentIndex: number;
   confettiToggle: boolean;
@@ -13,14 +21,14 @@ const Confetti = ({ currentIndex }: ConfettiProps) => {
 
   const svgs = isMobile
     ? [
-      "./src/assets/images/confettisp.svg",
-      "./src/assets/images/confettisp2.svg",
-      "./src/assets/images/confettisp3.svg",
+      confettisp,
+      confettisp2,
+      confettisp3,
     ]
     : [
-      "./src/assets/images/lit-confetti1.svg",
-      "./src/assets/images/lit-confetti2.svg",
-      "./src/assets/images/lit-confetti3.svg",
+      confetti,
+      confetti2,
+      confetti3,
     ];
 
   return (

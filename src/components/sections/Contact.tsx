@@ -1,6 +1,7 @@
 import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import contactImg from '../../assets/images/contactImg.JPG';
 gsap.registerPlugin(ScrollTrigger);
 
 const Contact = () => {
@@ -75,7 +76,7 @@ const Contact = () => {
         </div>
 
         <img
-          src="./src/assets/images/contactImg.JPG"
+          src={contactImg}
           alt=""
           className="fade-up"
         />

@@ -1,6 +1,19 @@
 import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import portfolioView from '../../assets/images/portfolio-view.png';
+import portfolioViewSp from '../../assets/images/portfolio-view-sp.png';
+import nengajoView from '../../assets/images/nengajo-view.png';
+import nengajoViewSp from '../../assets/images/nengajo-view-sp.png';
+import backStage from '../../assets/images/backstage-view.png';
+import backStageSp from '../../assets/images/backstage-view-sp.png';
+import tKaisei from '../../assets/images/t-kaisei-view.png';
+import tKaiseiSp from '../../assets/images/t-kaisei-view-sp.png';
+import lightEffect from '../../assets/images/lighteffect.gif';
+import cardAnime from '../../assets/images/cardanime.gif';
+import jumpingText from '../../assets/images/jumpingtext.gif';
+import scrollTextBox from '../../assets/images/scrollTextBox.gif';
+
 gsap.registerPlugin(ScrollTrigger)
 
 
@@ -80,12 +93,12 @@ const Works = () => {
               >
                 <div className="work-image-wrapper">
                   <img
-                    src="./src/assets/images/portfolio-view.png"
+                    src={portfolioView}
                     alt=""
                     className="work-pc-img"
                   />
                   <img
-                    src="./src/assets/images/portfolio-view-sp.png"
+                    src={portfolioViewSp}
                     alt=""
                     className="work-sp-img"
                   />
@@ -110,12 +123,12 @@ const Works = () => {
               >
                 <div className="work-image-wrapper">
                   <img
-                    src="./src/assets/images/nengajo-view.png"
+                    src={nengajoView}
                     alt=""
                     className="work-pc-img"
                   />
                   <img
-                    src="./src/assets/images/nengajo-view-sp.png"
+                    src={nengajoViewSp}
                     alt=""
                     className="work-sp-img"
                   />
@@ -140,12 +153,12 @@ const Works = () => {
               >
                 <div className="work-image-wrapper">
                   <img
-                    src="./src/assets/images/backstage-view.png"
+                    src={backStage}
                     alt=""
                     className="work-pc-img"
                   />
                   <img
-                    src="./src/assets/images/backstage-view-sp.png"
+                    src={backStageSp}
                     alt=""
                     className="work-sp-img"
                   />
@@ -170,12 +183,12 @@ const Works = () => {
               >
                 <div className="work-image-wrapper">
                   <img
-                    src="./src/assets/images/t-kaisei-view.png"
+                    src={tKaisei}
                     alt=""
                     className="work-pc-img"
                   />
                   <img
-                    src="./src/assets/images/t-kaisei-view-sp.png"
+                    src={tKaiseiSp}
                     alt=""
                     className="work-sp-img"
                   />
@@ -200,12 +213,12 @@ const Works = () => {
               >
                 <div className="work-image-wrapper">
                   <img
-                    src="./src/assets/images/lighteffect.gif"
+                    src={lightEffect}
                     alt=""
                     className="work-pc-img"
                   />
                   <img
-                    src="./src/assets/images/lighteffect.gif"
+                    src={lightEffect}
                     alt=""
                     className="work-sp-img"
                   />
@@ -230,12 +243,12 @@ const Works = () => {
               >
                 <div className="work-image-wrapper">
                   <img
-                    src="./src/assets/images/cardanime.gif"
+                    src={cardAnime}
                     alt=""
                     className="work-pc-img"
                   />
                   <img
-                    src="./src/assets/images/cardanime.gif"
+                    src={cardAnime}
                     alt=""
                     className="work-sp-img"
                   />
@@ -260,12 +273,12 @@ const Works = () => {
               >
                 <div className="work-image-wrapper">
                   <img
-                    src="./src/assets/images/jumpingtext.gif"
+                    src={jumpingText}
                     alt=""
                     className="work-pc-img"
                   />
                   <img
-                    src="./src/assets/images/jumpingtext.gif"
+                    src={jumpingText}
                     alt=""
                     className="work-sp-img"
                   />
@@ -290,12 +303,12 @@ const Works = () => {
               >
                 <div className="work-image-wrapper">
                   <img
-                    src="./src/assets/images/scrollTextBox.gif"
+                    src={scrollTextBox}
                     alt=""
                     className="work-pc-img"
                   />
                   <img
-                    src="./src/assets/images/scrollTextBox.gif"
+                    src={scrollTextBox}
                     alt=""
                     className="work-sp-img"
                   />
