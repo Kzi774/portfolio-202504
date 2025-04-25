@@ -6,6 +6,9 @@ import {
   useState,
 } from "react";
 import gsap from "gsap";
+import firstview1 from '../../assets/images/firstview1.JPG'
+import firstview2 from '../../assets/images/firstview2.JPG'
+import firstview3 from '../../assets/images/firstview3.JPG'
 
 interface FirstViewProps {
   fade: boolean;
@@ -15,9 +18,9 @@ interface FirstViewProps {
 const FirstView = forwardRef<HTMLDivElement, FirstViewProps>(
   ({ fade, boxRef }) => {
     const images = [
-      "/images/firstview1.JPG",
-      "/images/firstview2.JPG",
-      "/images/firstview3.JPG",
+      firstview1,
+      firstview2,
+      firstview3
     ];
     const mainvisualRef = useRef<HTMLDivElement>(null);
     const displayTime = 6000;

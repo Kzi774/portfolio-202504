@@ -319,7 +319,7 @@
   mask-image: var(--mask);
   -webkit-mask-image: var(--mask);
 
-  --mask: url(/images/sloganAno.svg);
+  --mask: url(../assets/images/sloganAno.svg);
   mask-size: contain;
   -webkit-mask-size: contain;
   mask-position: center;

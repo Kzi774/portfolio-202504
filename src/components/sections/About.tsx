@@ -3,6 +3,7 @@ import Tilt from "react-parallax-tilt";
 import AboutCanvas from "../canvases/AboutCanvas";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import skillCard from '../../assets/images/portfoliocard.png'
 gsap.registerPlugin(ScrollTrigger);
 
 type AboutProps = {
@@ -160,7 +161,7 @@ const About = forwardRef<HTMLDivElement, AboutProps>(({ boxRef }) => {
         </div>
         <Tilt className="card-wrapper">
           <div>
-            <img src="/images/portfoliocard.png" alt="" />
+            <img src={skillCard} alt="" />
           </div>
         </Tilt>
       </section>
