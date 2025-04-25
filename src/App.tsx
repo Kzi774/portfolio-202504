@@ -17,9 +17,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 function App() {
 
-  const boxRef1 = useRef<HTMLDivElement>(null);
-  const boxRef2 = useRef<HTMLDivElement>(null);
-  const boxRef3 = useRef<HTMLDivElement>(null);
+  const boxRef1 = useRef<HTMLDivElement>(null!);
+  const boxRef2 = useRef<HTMLDivElement>(null!);
+  const boxRef3 = useRef<HTMLDivElement>(null!);
 
   //テキストスクロール制御
   useInfiniteScroll(boxRef1, 10);

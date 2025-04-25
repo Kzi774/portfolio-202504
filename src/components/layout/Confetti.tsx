@@ -3,7 +3,7 @@ interface ConfettiProps {
   confettiToggle: boolean;
 }
 
-const Confetti = ({ currentIndex, confettiToggle}: ConfettiProps) => {
+const Confetti = ({ currentIndex }: ConfettiProps) => {
   const isMobile = window.innerWidth <= 768; // スマホ幅の判定
   const objectStyle = {
     width: isMobile ? "auto" : "100vw",  // スマホ時はwidthをautoに

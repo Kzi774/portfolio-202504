@@ -35,7 +35,7 @@ const BgCanvas = () => (
       <Pointer />
       <Clump />
     </Physics>
-    <EffectComposer disableNormalPass multisampling={0}>
+    <EffectComposer enableNormalPass={false} multisampling={0}>
       <N8AO
         halfRes
         color="black"
@@ -65,7 +65,7 @@ function Clump({
   useFrame(() => {
     for (let i = 0; i < 40; i++) {
       // Get current whereabouts of the instanced cube
-      ref.current.getMatrixAt(i, mat);
+      (ref.current as THREE.InstancedMesh).getMatrixAt(i, mat);
       // Normalize the position and multiply by a negative force.
       // This is enough to drive it towards the center-point.
       api
