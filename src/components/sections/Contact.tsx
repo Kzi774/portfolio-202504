@@ -65,7 +65,7 @@ const Contact = () => {
             あなたの一通、楽しみにしています！
           </p>
           <a
-            href=""
+            href="mailto:kozai.tsu2ji@gmail.com"
             ref={aTextRef}
             onMouseEnter={onMouseEnterContact}
             onMouseLeave={onMouseLeaveSendContact}
