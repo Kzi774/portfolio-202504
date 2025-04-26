@@ -1090,7 +1090,7 @@ footer .rollSticker {
 
   #aboutSection .card-wrapper img {
     width: 100%;
-    height: fit-content;
+    height: auto;
     display: block;
   }
 
