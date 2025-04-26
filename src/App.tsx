@@ -1,8 +1,9 @@
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import "normalize.css";
 import "./styles/App.css";
 import useInfiniteScroll from "./hooks/useInfiniteScroll";
 import { useConfetti } from "./hooks/useConfetti";
+import Loader from "./components/layout/Loader";
 import Confetti from "./components/layout/Confetti";
 import Header from "./components/layout/PageHeader";
 import FirstView from "./components/sections/FirstView";
@@ -16,7 +17,6 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
-
   const boxRef1 = useRef<HTMLDivElement>(null!);
   const boxRef2 = useRef<HTMLDivElement>(null!);
   const boxRef3 = useRef<HTMLDivElement>(null!);
@@ -34,8 +34,20 @@ function App() {
     confettiIconRef,
   } = useConfetti();
 
+  //ローディング画面
+  const [showLoader, setShowLoader] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowLoader(false);
+    }, 2800);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
+      {showLoader && <Loader />}
       <Confetti
         confettiToggle={confettiToggle}
         currentIndex={currentSvgIndex}

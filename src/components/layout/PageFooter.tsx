@@ -42,6 +42,7 @@ const PageFooter = forwardRef<HTMLDivElement, FooterProps>(({ boxRef }) => {
       };
     }
   }, []);
+
   return (
     <footer>
       <div ref={boxRef} className="rollSticker-wrapper">
