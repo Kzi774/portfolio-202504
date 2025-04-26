@@ -106,7 +106,7 @@ const Works = () => {
 
                 <div className="work-text-block">
                   <h3>つつじデザイン2025 ポートフォリオサイト</h3>
-                  <p className="work-category">web site design / cording</p>
+                  <p className="work-category">web site design / coding</p>
                   <p className="work-date">2025.04</p>
                 </div>
               </a>
@@ -136,7 +136,7 @@ const Works = () => {
 
                 <div className="work-text-block">
                   <h3>つつじデザイン2025 年賀サイト</h3>
-                  <p className="work-category">web site design / cording</p>
+                  <p className="work-category">web site design / coding</p>
                   <p className="work-date">2025.01</p>
                 </div>
               </a>
@@ -166,7 +166,7 @@ const Works = () => {
 
                 <div className="work-text-block">
                   <h3>合同会社BackStage HP</h3>
-                  <p className="work-category">web site design / cording</p>
+                  <p className="work-category">web site design / coding</p>
                   <p className="work-date">2024.03</p>
                 </div>
               </a>
@@ -196,7 +196,7 @@ const Works = () => {
 
                 <div className="work-text-block">
                   <h3>つくば開成高等学校 北海道エリア HP</h3>
-                  <p className="work-category">web site design / cording</p>
+                  <p className="work-category">web site design / coding</p>
                   <p className="work-date">2024.03</p>
                 </div>
               </a>
@@ -226,7 +226,7 @@ const Works = () => {
 
                 <div className="work-text-block">
                   <h3>文字に光が当たるアニメーション</h3>
-                  <p className="work-category">cording</p>
+                  <p className="work-category">coding</p>
                   <p className="work-date">2025.03</p>
                 </div>
               </a>
@@ -256,7 +256,7 @@ const Works = () => {
 
                 <div className="work-text-block">
                   <h3>画像がカードのように切り替わるアニメーション</h3>
-                  <p className="work-category">cording</p>
+                  <p className="work-category">coding</p>
                   <p className="work-date">2025.03</p>
                 </div>
               </a>
@@ -286,7 +286,7 @@ const Works = () => {
 
                 <div className="work-text-block">
                   <h3>テキストが跳ねるアニメーション</h3>
-                  <p className="work-category">cording</p>
+                  <p className="work-category">coding</p>
                   <p className="work-date">2025.03</p>
                 </div>
               </a>
@@ -316,7 +316,7 @@ const Works = () => {
 
                 <div className="work-text-block">
                   <h3>スクロールアニメーション</h3>
-                  <p className="work-category">cording</p>
+                  <p className="work-category">coding</p>
                   <p className="work-date">2025.03</p>
                 </div>
               </a>
